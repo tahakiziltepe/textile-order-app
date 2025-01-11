@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --dotfiles"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
@@ -31,5 +31,5 @@
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   },
-  "homepage": "."
+  "homepage": "https://tahakiziltepe.github.io/textile-order-app/"
 }
